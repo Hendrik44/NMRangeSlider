@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8009D11CE1C81D009863E3 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8009D01CE1C81D009863E3 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8009D61CE1C82A009863E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
+		4D8009D71CE1C832009863E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
+		4D8009D81CE1C839009863E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
+		4D8009D91CE1C851009863E3 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */; };
+		4D8009DA1CE1C870009863E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4B675B17F8F1470054842C /* Default-568h@2x.png */; };
+		4D8009DB1CE1C870009863E3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9C915CE3590009A1A04 /* Icon-72.png */; };
+		4D8009DC1CE1C870009863E3 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CA15CE3590009A1A04 /* Icon-72@2x.png */; };
+		4D8009DD1CE1C870009863E3 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CB15CE3590009A1A04 /* Icon-Small-50.png */; };
+		4D8009DE1CE1C870009863E3 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CC15CE3590009A1A04 /* Icon-Small-50@2x.png */; };
+		4D8009DF1CE1C870009863E3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CD15CE3590009A1A04 /* Icon-Small.png */; };
+		4D8009E01CE1C870009863E3 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CE15CE3590009A1A04 /* Icon-Small@2x.png */; };
+		4D8009E11CE1C870009863E3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9CF15CE3590009A1A04 /* Icon.png */; };
+		4D8009E21CE1C870009863E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F9D015CE3590009A1A04 /* Icon@2x.png */; };
+		4D8009E31CE1C870009863E3 /* navbar-nullmonkey-title.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F99C15CE0955009A1A04 /* navbar-nullmonkey-title.png */; };
+		4D8009E41CE1C870009863E3 /* navbar-nullmonkey-title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F99D15CE0955009A1A04 /* navbar-nullmonkey-title@2x.png */; };
+		4D8009E51CE1C870009863E3 /* slider-default7-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCB8180690AE00FBE743 /* slider-default7-trackBackground.png */; };
+		4D8009E61CE1C870009863E3 /* slider-default7-trackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCB9180690AE00FBE743 /* slider-default7-trackBackground@2x.png */; };
+		4D8009E71CE1C870009863E3 /* slider-default7-trackCrossedOver.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBA180690AE00FBE743 /* slider-default7-trackCrossedOver.png */; };
+		4D8009E81CE1C870009863E3 /* slider-default7-trackCrossedOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBB180690AE00FBE743 /* slider-default7-trackCrossedOver@2x.png */; };
+		4D8009E91CE1C870009863E3 /* slider-default7-track.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBC180690AE00FBE743 /* slider-default7-track.png */; };
+		4D8009EA1CE1C870009863E3 /* slider-default7-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBD180690AE00FBE743 /* slider-default7-track@2x.png */; };
+		4D8009EB1CE1C870009863E3 /* slider-default7-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBE180690AE00FBE743 /* slider-default7-handle.png */; };
+		4D8009EC1CE1C870009863E3 /* slider-default7-handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBF180690AE00FBE743 /* slider-default7-handle@2x.png */; };
+		4D8009ED1CE1C870009863E3 /* slider-default-handle-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95515CD0BF8009A1A04 /* slider-default-handle-highlighted.png */; };
+		4D8009EE1CE1C870009863E3 /* slider-default-handle-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95615CD0BF8009A1A04 /* slider-default-handle-highlighted@2x.png */; };
+		4D8009EF1CE1C870009863E3 /* slider-default-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95715CD0BF8009A1A04 /* slider-default-handle.png */; };
+		4D8009F01CE1C870009863E3 /* slider-default-handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95815CD0BF8009A1A04 /* slider-default-handle@2x.png */; };
+		4D8009F11CE1C870009863E3 /* slider-default-track.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95915CD0BF8009A1A04 /* slider-default-track.png */; };
+		4D8009F21CE1C870009863E3 /* slider-default-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95A15CD0BF8009A1A04 /* slider-default-track@2x.png */; };
+		4D8009F31CE1C870009863E3 /* slider-default-trackCrossedOver.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4B675717F8EDAA0054842C /* slider-default-trackCrossedOver.png */; };
+		4D8009F41CE1C870009863E3 /* slider-default-trackCrossedOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4B675817F8EDAA0054842C /* slider-default-trackCrossedOver@2x.png */; };
+		4D8009F51CE1C870009863E3 /* slider-default-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95B15CD0BF8009A1A04 /* slider-default-trackBackground.png */; };
+		4D8009F61CE1C870009863E3 /* slider-default_trackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95C15CD0BF8009A1A04 /* slider-default_trackBackground@2x.png */; };
+		4D8009F71CE1C870009863E3 /* slider-metal-handle-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95E15CD0BF8009A1A04 /* slider-metal-handle-highlighted.png */; };
+		4D8009F81CE1C870009863E3 /* slider-metal-handle-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F95F15CD0BF8009A1A04 /* slider-metal-handle-highlighted@2x.png */; };
+		4D8009F91CE1C870009863E3 /* slider-metal-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96015CD0BF8009A1A04 /* slider-metal-handle.png */; };
+		4D8009FA1CE1C870009863E3 /* slider-metal-handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96115CD0BF8009A1A04 /* slider-metal-handle@2x.png */; };
+		4D8009FB1CE1C870009863E3 /* slider-metal-track.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96215CD0BF8009A1A04 /* slider-metal-track.png */; };
+		4D8009FC1CE1C870009863E3 /* slider-metal-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96315CD0BF8009A1A04 /* slider-metal-track@2x.png */; };
+		4D8009FD1CE1C870009863E3 /* slider-metal-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96415CD0BF8009A1A04 /* slider-metal-trackBackground.png */; };
+		4D8009FE1CE1C870009863E3 /* slider-metal-trackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC36F96515CD0BF8009A1A04 /* slider-metal-trackBackground@2x.png */; };
 		EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
 		EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
 		EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
@@ -58,7 +100,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8009CE1CE1C81C009863E3 /* NMRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NMRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8009D01CE1C81D009863E3 /* NMRangeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
+		4D8009D21CE1C81D009863E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC36F93215CD0B96009A1A04 /* NMRangeSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMRangeSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36F93615CD0B96009A1A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC36F93815CD0B96009A1A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +162,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D8009CA1CE1C81C009863E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8009D81CE1C839009863E3 /* CoreGraphics.framework in Frameworks */,
+				4D8009D71CE1C832009863E3 /* Foundation.framework in Frameworks */,
+				4D8009D61CE1C82A009863E3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F92F15CD0B96009A1A04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,12 +185,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8009CF1CE1C81D009863E3 /* NMRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4D8009D01CE1C81D009863E3 /* NMRangeSlider.h */,
+				4D8009D21CE1C81D009863E3 /* Info.plist */,
+			);
+			path = NMRangeSlider;
+			sourceTree = "<group>";
+		};
 		EC36F92715CD0B96009A1A04 = {
 			isa = PBXGroup;
 			children = (
 				EC53B5F61993875B00C81C7E /* NMRangeSlider.podspec */,
 				EC4B675B17F8F1470054842C /* Default-568h@2x.png */,
 				EC36F93C15CD0B96009A1A04 /* NMRangeSlider-Demo */,
+				4D8009CF1CE1C81D009863E3 /* NMRangeSlider */,
 				EC36F93515CD0B96009A1A04 /* Frameworks */,
 				EC36F93315CD0B96009A1A04 /* Products */,
 			);
@@ -144,7 +209,8 @@
 		EC36F93315CD0B96009A1A04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */,
+				EC36F93215CD0B96009A1A04 /* NMRangeSliderApp.app */,
+				4D8009CE1CE1C81C009863E3 /* NMRangeSlider.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,10 +333,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4D8009CB1CE1C81C009863E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8009D11CE1C81D009863E3 /* NMRangeSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EC36F93115CD0B96009A1A04 /* NMRangeSlider */ = {
+		4D8009CD1CE1C81C009863E3 /* NMRangeSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC36F95015CD0B96009A1A04 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */;
+			buildConfigurationList = 4D8009D31CE1C81D009863E3 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */;
+			buildPhases = (
+				4D8009C91CE1C81C009863E3 /* Sources */,
+				4D8009CA1CE1C81C009863E3 /* Frameworks */,
+				4D8009CB1CE1C81C009863E3 /* Headers */,
+				4D8009CC1CE1C81C009863E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMRangeSlider;
+			productName = NMRangeSlider;
+			productReference = 4D8009CE1CE1C81C009863E3 /* NMRangeSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC36F93115CD0B96009A1A04 /* NMRangeSliderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC36F95015CD0B96009A1A04 /* Build configuration list for PBXNativeTarget "NMRangeSliderApp" */;
 			buildPhases = (
 				EC36F92E15CD0B96009A1A04 /* Sources */,
 				EC36F92F15CD0B96009A1A04 /* Frameworks */,
@@ -280,9 +375,9 @@
 			);
 			dependencies = (
 			);
-			name = NMRangeSlider;
+			name = NMRangeSliderApp;
 			productName = NMRangeSlider;
-			productReference = EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */;
+			productReference = EC36F93215CD0B96009A1A04 /* NMRangeSliderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,6 +389,11 @@
 				CLASSPREFIX = NM;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Null Monkey";
+				TargetAttributes = {
+					4D8009CD1CE1C81C009863E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -307,12 +407,57 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC36F93115CD0B96009A1A04 /* NMRangeSlider */,
+				EC36F93115CD0B96009A1A04 /* NMRangeSliderApp */,
+				4D8009CD1CE1C81C009863E3 /* NMRangeSlider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D8009CC1CE1C81C009863E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8009DA1CE1C870009863E3 /* Default-568h@2x.png in Resources */,
+				4D8009DB1CE1C870009863E3 /* Icon-72.png in Resources */,
+				4D8009DC1CE1C870009863E3 /* Icon-72@2x.png in Resources */,
+				4D8009DD1CE1C870009863E3 /* Icon-Small-50.png in Resources */,
+				4D8009DE1CE1C870009863E3 /* Icon-Small-50@2x.png in Resources */,
+				4D8009DF1CE1C870009863E3 /* Icon-Small.png in Resources */,
+				4D8009E01CE1C870009863E3 /* Icon-Small@2x.png in Resources */,
+				4D8009E11CE1C870009863E3 /* Icon.png in Resources */,
+				4D8009E21CE1C870009863E3 /* Icon@2x.png in Resources */,
+				4D8009E31CE1C870009863E3 /* navbar-nullmonkey-title.png in Resources */,
+				4D8009E41CE1C870009863E3 /* navbar-nullmonkey-title@2x.png in Resources */,
+				4D8009E51CE1C870009863E3 /* slider-default7-trackBackground.png in Resources */,
+				4D8009E61CE1C870009863E3 /* slider-default7-trackBackground@2x.png in Resources */,
+				4D8009E71CE1C870009863E3 /* slider-default7-trackCrossedOver.png in Resources */,
+				4D8009E81CE1C870009863E3 /* slider-default7-trackCrossedOver@2x.png in Resources */,
+				4D8009E91CE1C870009863E3 /* slider-default7-track.png in Resources */,
+				4D8009EA1CE1C870009863E3 /* slider-default7-track@2x.png in Resources */,
+				4D8009EB1CE1C870009863E3 /* slider-default7-handle.png in Resources */,
+				4D8009EC1CE1C870009863E3 /* slider-default7-handle@2x.png in Resources */,
+				4D8009ED1CE1C870009863E3 /* slider-default-handle-highlighted.png in Resources */,
+				4D8009EE1CE1C870009863E3 /* slider-default-handle-highlighted@2x.png in Resources */,
+				4D8009EF1CE1C870009863E3 /* slider-default-handle.png in Resources */,
+				4D8009F01CE1C870009863E3 /* slider-default-handle@2x.png in Resources */,
+				4D8009F11CE1C870009863E3 /* slider-default-track.png in Resources */,
+				4D8009F21CE1C870009863E3 /* slider-default-track@2x.png in Resources */,
+				4D8009F31CE1C870009863E3 /* slider-default-trackCrossedOver.png in Resources */,
+				4D8009F41CE1C870009863E3 /* slider-default-trackCrossedOver@2x.png in Resources */,
+				4D8009F51CE1C870009863E3 /* slider-default-trackBackground.png in Resources */,
+				4D8009F61CE1C870009863E3 /* slider-default_trackBackground@2x.png in Resources */,
+				4D8009F71CE1C870009863E3 /* slider-metal-handle-highlighted.png in Resources */,
+				4D8009F81CE1C870009863E3 /* slider-metal-handle-highlighted@2x.png in Resources */,
+				4D8009F91CE1C870009863E3 /* slider-metal-handle.png in Resources */,
+				4D8009FA1CE1C870009863E3 /* slider-metal-handle@2x.png in Resources */,
+				4D8009FB1CE1C870009863E3 /* slider-metal-track.png in Resources */,
+				4D8009FC1CE1C870009863E3 /* slider-metal-track@2x.png in Resources */,
+				4D8009FD1CE1C870009863E3 /* slider-metal-trackBackground.png in Resources */,
+				4D8009FE1CE1C870009863E3 /* slider-metal-trackBackground@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F93015CD0B96009A1A04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +509,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D8009C91CE1C81C009863E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8009D91CE1C851009863E3 /* NMRangeSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F92E15CD0B96009A1A04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +550,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4D8009D41CE1C81D009863E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NMRangeSlider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jg-bits.NMRangeSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D8009D51CE1C81D009863E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NMRangeSlider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jg-bits.NMRangeSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EC36F94E15CD0B96009A1A04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -471,6 +710,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D8009D31CE1C81D009863E3 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8009D41CE1C81D009863E3 /* Debug */,
+				4D8009D51CE1C81D009863E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -480,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC36F95015CD0B96009A1A04 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */ = {
+		EC36F95015CD0B96009A1A04 /* Build configuration list for PBXNativeTarget "NMRangeSliderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC36F95115CD0B96009A1A04 /* Debug */,
