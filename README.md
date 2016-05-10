@@ -1,6 +1,7 @@
 
 # NMRangeSlider
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 * * * * * * * * * * *
 
 NMRangeSlider is custom iOS control that gives you a UISlider like UI for selecting a range of values. This project was inspried by: https://github.com/buildmobile/iosrangeslider.
