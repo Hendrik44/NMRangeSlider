@@ -130,7 +130,6 @@
 		EC36F96315CD0BF8009A1A04 /* slider-metal-track@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-track@2x.png"; sourceTree = "<group>"; };
 		EC36F96415CD0BF8009A1A04 /* slider-metal-trackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-trackBackground.png"; sourceTree = "<group>"; };
 		EC36F96515CD0BF8009A1A04 /* slider-metal-trackBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-trackBackground@2x.png"; sourceTree = "<group>"; };
-		EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
 		EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMRangeSlider.m; sourceTree = "<group>"; };
 		EC36F97915CD0F30009A1A04 /* NMDemoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMDemoTVC.h; sourceTree = "<group>"; };
 		EC36F97A15CD0F30009A1A04 /* NMDemoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMDemoTVC.m; sourceTree = "<group>"; };
@@ -188,6 +187,7 @@
 		4D8009CF1CE1C81D009863E3 /* NMRangeSlider */ = {
 			isa = PBXGroup;
 			children = (
+				EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */,
 				4D8009D01CE1C81D009863E3 /* NMRangeSlider.h */,
 				4D8009D21CE1C81D009863E3 /* Info.plist */,
 			);
@@ -260,8 +260,6 @@
 				EC6CCCB718068F8A00FBE743 /* DefaultTheme7 */,
 				EC36F95415CD0BF8009A1A04 /* DefaultTheme */,
 				EC36F95D15CD0BF8009A1A04 /* MetalTheme */,
-				EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */,
-				EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */,
 			);
 			name = NMRangeSlider;
 			path = ../NMRangeSlider;
@@ -553,6 +551,12 @@
 		4D8009D41CE1C81D009863E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_INCLUDING_64_BIT)",
+					arm64,
+					armv7s,
+					armv7,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -583,7 +587,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.jg-bits.NMRangeSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -596,6 +600,12 @@
 		4D8009D51CE1C81D009863E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_INCLUDING_64_BIT)",
+					arm64,
+					armv7s,
+					armv7,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -627,6 +637,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.jg-bits.NMRangeSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -717,6 +728,7 @@
 				4D8009D51CE1C81D009863E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
